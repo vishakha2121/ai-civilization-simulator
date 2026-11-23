@@ -122,3 +122,23 @@ ai-civilization-simulator/
 ├── database/                  # SQL migrations & seed data
 ├── docs/                      # In-depth documentation
 └── README.md
+
+git clone https://github.com/vishakha2121/ai-civilization-simulator.git
+cd ai-civilization-simulator
+
+
+cd backend
+python -m venv venv
+
+# Activate virtual environment
+# Windows:
+venv\Scripts\activate
+# Mac/Linux:
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+
+cd frontend
+npm install
+npm run dev
